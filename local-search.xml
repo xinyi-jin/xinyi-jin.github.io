@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Hello World</title>
+    <link href="/2022/09/13/hello-world/"/>
+    <url>/2022/09/13/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>git ssh连接</title>
     <link href="/2022/09/13/github-ssh/"/>
     <url>/2022/09/13/github-ssh/</url>
@@ -79,19 +92,6 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2022/08/23/hello-world/"/>
-    <url>/2022/08/23/hello-world/</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>自学习内容</title>
     <link href="/2022/08/23/docker/"/>
     <url>/2022/08/23/docker/</url>
@@ -134,6 +134,33 @@
     <tags>
       
       <tag>文件整理</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>JDK的安装与环境配置</title>
+    <link href="/2022/02/27/JDK%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <url>/2022/02/27/JDK%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    
+    <content type="html"><![CDATA[<ul><li>下载JDK安装包<br>首先到Oracle官网下载，链接: <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a></li></ul><p>需要勾选同意，然后选择自己电脑系统的版本下载。<br>ps:右键我的电脑，属性，查看系统类型。x64是64位，x86是32位。</p><p>下载完成后，双击下载的安装包，采用傻瓜式安装，一路NEXT即可。<br>ps：注意安装路径可以设置在除C盘外的其他盘，例如：D:\Java\jdk-8u181-windows-x64<br>另外，安装路径不要使用中文命名，否则会发生未知错误（第一次装的时候就被坑死了）</p><ul><li>配置JDK的环境变量<br>右键，我的电脑，属性，高级系统设置，高级，环境变量</li></ul><p>找到系统变量中的path，点击编辑，在最前边添加自己的JDK路径信息，然后点击确定。<br>ps：路径信息到bin文件夹下就可以，因为bin文件夹存放的是java的.exe命令，路径末尾不要忘记添加“;”</p><p>然后就可以windows键+R，运行cmd，进入DOS命令行。<br>执行java -version命令，如下图，就表示java环境变量配置成功了。</p><p>ps:新配置好的环境变量，必须重新打开DOS窗口才能正常运行，java -version中，java后边需要留有一个空格</p><p>jdk重装时候遇到的坑0.0，没卸载 干净，这位大哥的博客有解决方案<br><a href="https://blog.csdn.net/ldld1717/article/details/52144760">https://blog.csdn.net/ldld1717/article/details/52144760</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Java</tag>
+      
+      <tag>JDK</tag>
       
     </tags>
     
@@ -350,6 +377,158 @@
   
   
   <entry>
+    <title>Gin web开发入门</title>
+    <link href="/2020/08/29/Gin-web%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/"/>
+    <url>/2020/08/29/Gin-web%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8/</url>
+    
+    <content type="html"><![CDATA[<ul><li>Day01 简单部署Gin框架</li><li>ps：首次执行的时候我是mac默认的go 1.12版本，然后就很多错误。后来换成go 1.14.5版本，执行下方教程就好啦。</li></ul><ol><li>安装Go语言开发环境<br>使用mac命令行，brew工具直接安装，代码如下：</li></ol><p><code>brew install go</code></p><p>运行完成没有报错就是安装成功</p><ol start="2"><li>安装Gin框架<br>使用官方提供的命令安装。（前提：需要设置go全局的path变量，自行查找方案，不做过多介绍）</li></ol><p><code>go get -u github.com/gin-gonic/gin</code></p><p>这里直接运行命令的话会出现 连接超时报错。因为get的资源中包含一些其他的资源引用，这部分正好处于google包中或其他国内不能访问的包中。<br>解决方法：<br>设置GOPROXY变量，用于获取这部分资源，然后get到本地。</p><p>使用 go env 命令查看 GOPROXY变量的值。<br>执行以下命令，打开modules 然后设置goproxy代理</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs routeros">go env -w <span class="hljs-attribute">GO111MODULE</span>=on<br>go env -w <span class="hljs-attribute">GOPROXY</span>=https://goproxy.io,direct<br></code></pre></td></tr></table></figure><p>完成上述操作后，再执行第一步的go get命令，没有报错就证明下载成功。可以到gopath目录下查找gin包。</p><ol start="3"><li>部署Gin 简单web页面<br>首先，构建go源码文件，导入gin包</li></ol><p><code>import &quot;github.com/gin-gonic/gin&quot;</code><br>然后根据官网给的example，如下：</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs go"><span class="hljs-keyword">package</span> main<br><br><span class="hljs-keyword">import</span> <span class="hljs-string">&quot;github.com/gin-gonic/gin&quot;</span><br><br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span> &#123;<br>r := gin.Default()<br>r.GET(<span class="hljs-string">&quot;/ping&quot;</span>, <span class="hljs-function"><span class="hljs-keyword">func</span><span class="hljs-params">(c *gin.Context)</span></span> &#123;<br>c.JSON(<span class="hljs-number">200</span>, gin.H&#123;<br><span class="hljs-string">&quot;message&quot;</span>: <span class="hljs-string">&quot;pong&quot;</span>,<br>&#125;)<br>&#125;)<br>r.Run() <span class="hljs-comment">// listen and serve on 0.0.0.0:8080 (for windows &quot;localhost:8080&quot;)</span><br>&#125;<br></code></pre></td></tr></table></figure><p>最后，执行go run xxx.go执行<br>注意：最后执行的时候大概率会报错</p><figure class="highlight ceylon"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ceylon">main.go:<span class="hljs-number">3</span>:<span class="hljs-number">8</span>: cannot find <span class="hljs-keyword">module</span> providing <span class="hljs-keyword">package</span> github.com/gin-gonic/gin: working directory <span class="hljs-keyword">is</span> not part <span class="hljs-keyword">of</span> a <span class="hljs-keyword">module</span><br></code></pre></td></tr></table></figure><p>具体原因是因为go mod 本身的资源管理问题，在开启modules的时候，资源路径改变，导致不能正确访问到gin包。导致go代码中 import 的时候没有引入gin包。</p><p>解决方法：在当前执行代码的目录下，执行以下命令。</p><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs vim"><span class="hljs-keyword">go</span> <span class="hljs-keyword">mod</span> init gin <br><span class="hljs-keyword">go</span> <span class="hljs-keyword">mod</span> <span class="hljs-keyword">edit</span> -require github.<span class="hljs-keyword">com</span>/gin-gonic/gin@latest<br></code></pre></td></tr></table></figure><p>这个好像是类似于nodejs的npm包管理工具，了解不多不做过多描述，以免误导各位。</p><p>小技巧：使用go build 的时候可以使用-o参数指定生成的文件名称<br>gin_test 自定义的生成文件名称<br>gin_demo.go程序源代码</p><p><code>go build -o gin_test gin_demo.go</code></p><p>关于Gin API方面，官网提供Using GET, POST, PUT, PATCH, DELETE and OPTIONS</p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs stylus">func <span class="hljs-selector-tag">main</span>() &#123;<br><span class="hljs-comment">// Creates a gin router with default middleware:</span><br><span class="hljs-comment">// logger and recovery (crash-free) middleware</span><br>router := gin<span class="hljs-selector-class">.Default</span>()<br><br>router<span class="hljs-selector-class">.GET</span>(<span class="hljs-string">&quot;/someGet&quot;</span>, getting)<br>router<span class="hljs-selector-class">.POST</span>(<span class="hljs-string">&quot;/somePost&quot;</span>, posting)<br>router<span class="hljs-selector-class">.PUT</span>(<span class="hljs-string">&quot;/somePut&quot;</span>, putting)<br>router<span class="hljs-selector-class">.DELETE</span>(<span class="hljs-string">&quot;/someDelete&quot;</span>, deleting)<br>router<span class="hljs-selector-class">.PATCH</span>(<span class="hljs-string">&quot;/somePatch&quot;</span>, patching)<br>router<span class="hljs-selector-class">.HEAD</span>(<span class="hljs-string">&quot;/someHead&quot;</span>, head)<br>router<span class="hljs-selector-class">.OPTIONS</span>(<span class="hljs-string">&quot;/someOptions&quot;</span>, options)<br><br><span class="hljs-comment">// By default it serves on :8080 unless a</span><br><span class="hljs-comment">// PORT environment variable was defined.</span><br>router<span class="hljs-selector-class">.Run</span>()<br><span class="hljs-comment">// router.Run(&quot;:3000&quot;) for a hard coded port</span><br>&#125;<br></code></pre></td></tr></table></figure><p>值得一提的是，通过网址访问<a href="http://127.0.0.1:8080/">http://127.0.0.1:8080/</a> 默认使用的get请求，用其他的都会404，应该是前端请求时候要指定是post或者delete或其他的请求才能正确访问到。</p><p>好像是根据RESTful API接口风格来定义的，感兴趣的可以看下阮一峰老师的博文：<br>RESTful API 设计指南</p><p>在这里的话如果我们想要看其他请求的效果，可以使用postman api测试，选择请求方式，填写url地址就可以发起请求，然后看到返回的数据。</p><p>Gin框架官方文档：<a href="https://gin-gonic.com/docs/">https://gin-gonic.com/docs/</a>.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Go</tag>
+      
+      <tag>Gin</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>GoLang中if临时变量的生存周期</title>
+    <link href="/2020/03/25/GoLang%E4%B8%ADif%E4%B8%B4%E6%97%B6%E5%8F%98%E9%87%8F%E7%9A%84%E7%94%9F%E5%AD%98%E5%91%A8%E6%9C%9F/"/>
+    <url>/2020/03/25/GoLang%E4%B8%ADif%E4%B8%B4%E6%97%B6%E5%8F%98%E9%87%8F%E7%9A%84%E7%94%9F%E5%AD%98%E5%91%A8%E6%9C%9F/</url>
+    
+    <content type="html"><![CDATA[<p>进行了下方代码进行验证</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs go"><span class="hljs-keyword">package</span> main<br><br><span class="hljs-keyword">import</span> <span class="hljs-string">&quot;fmt&quot;</span><br><br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<br><span class="hljs-keyword">if</span> n:=<span class="hljs-number">1</span>+<span class="hljs-number">1</span>;n!=<span class="hljs-number">2</span>&#123;<br>fmt.Print(<span class="hljs-string">&quot;if n:&quot;</span>,n)<br>&#125;<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> n&lt;<span class="hljs-number">2</span>&#123;<br>fmt.Print(<span class="hljs-string">&quot;else if n:&quot;</span>,n)<br>&#125;<span class="hljs-keyword">else</span> &#123;<br>fmt.Print(<span class="hljs-string">&quot;else n:&quot;</span>,n)<br>&#125;<br><span class="hljs-comment">// fmt.Print(&quot;n:&quot;,n)</span><br>&#125;<br><br></code></pre></td></tr></table></figure><p>输出结果：<br><code>else n:2</code></p><p>总结，由代码执行结果可得：if 判断条件中临时定义的变量，其生命周期存在于整个if else语句逻辑中，不管是if分支逻辑还是else分支逻辑。注意：在if else外则直接会提示 undefined: n</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Go</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>go int类型转string类型</title>
+    <link href="/2020/03/25/int%E7%B1%BB%E5%9E%8B%E8%BD%ACstring%E7%B1%BB%E5%9E%8B/"/>
+    <url>/2020/03/25/int%E7%B1%BB%E5%9E%8B%E8%BD%ACstring%E7%B1%BB%E5%9E%8B/</url>
+    
+    <content type="html"><![CDATA[<p>版权声明：本文为CSDN博主「duzhenxun」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/duzhenxun/article/details/95739946">https://blog.csdn.net/duzhenxun/article/details/95739946</a></p><p>2个值做对比时要先注意他们的类型.如果一个string与一个in32不能直接对比.先要转换类型</p><p>如果使用Itoa需要一个int,使用FormatInt需要一个int64,</p><p>最简单的方法是使用fmt.Sprint(int32),但效率比较低</p><ol><li>fmt.Sprint(i) 比较慢</li></ol><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs stylus">func <span class="hljs-built_in">Sprint</span>(<span class="hljs-selector-tag">a</span> ...interface&#123;&#125;) string &#123;<br>    <span class="hljs-selector-tag">p</span> := <span class="hljs-built_in">newPrinter</span>()<br>    <span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.doPrint</span>(a)<br>    s := <span class="hljs-built_in">string</span>(<span class="hljs-selector-tag">p</span>.buf)<br>    <span class="hljs-selector-tag">p</span><span class="hljs-selector-class">.free</span>()<br>    return s<br>&#125;<br></code></pre></td></tr></table></figure><ol start="2"><li>strconv.Itoa(int(i))</li></ol><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">func <span class="hljs-constructor">Itoa(<span class="hljs-params">i</span> <span class="hljs-params">int</span>)</span> <span class="hljs-built_in">string</span> &#123;<br>    return <span class="hljs-constructor">FormatInt(<span class="hljs-params">int64</span>(<span class="hljs-params">i</span>)</span>, <span class="hljs-number">10</span>)<br>&#125;<br></code></pre></td></tr></table></figure><ol start="3"><li></li></ol><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs go">strconv.FormatInt(<span class="hljs-type">int64</span>(i), <span class="hljs-number">10</span>)<br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">FormatInt</span><span class="hljs-params">(i <span class="hljs-type">int64</span>, base <span class="hljs-type">int</span>)</span></span> <span class="hljs-type">string</span> &#123;<br>    _, s := formatBits(<span class="hljs-literal">nil</span>, <span class="hljs-type">uint64</span>(i), base, i &lt; <span class="hljs-number">0</span>, <span class="hljs-literal">false</span>)<br>    <span class="hljs-keyword">return</span> s<br>&#125;<br></code></pre></td></tr></table></figure><ol start="4"><li>string转成int：</li></ol><p><code>int, err := strconv.Atoi(string)</code></p><ol start="5"><li>string转成int64：</li></ol><p><code>int64, err := strconv.ParseInt(string, 10, 64)</code></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Go</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>MySQL中WHERE子句不等于的使用</title>
+    <link href="/2020/03/17/MySQL%E4%B8%ADWHERE%E5%AD%90%E5%8F%A5%E4%B8%8D%E7%AD%89%E4%BA%8E%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <url>/2020/03/17/MySQL%E4%B8%ADWHERE%E5%AD%90%E5%8F%A5%E4%B8%8D%E7%AD%89%E4%BA%8E%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<p>MySQL中WHERE子句条件判断&lt;&gt;，!= 二者的区别<br>ANSI标准中是用&lt;&gt;(所以建议用&lt;&gt;)，但为了跟大部分数据库保持一致，数据库中一般都提供了 !=(高级语言一般用来表示不等于) 与 &lt;&gt; 来表示不等于：</p><ul><li>MySQL 5.1: 支持 != 和 &lt;&gt;</li><li>PostgreSQL 8.3: 支持 != 和 &lt;&gt;</li><li>SQLite: 支持 != 和 &lt;&gt;</li><li>Oracle 10g: 支持 != 和 &lt;&gt;</li><li>Microsoft SQL Server 2000/2005/2008: 支持 != 和 &lt;&gt;</li><li>IBM Informix Dynamic Server 10: 支持 != 和 &lt;&gt;</li><li>InterBase/Firebird: 支持 != 和 &lt;&gt;</li></ul><p>最后两个只支持ANSI标准的数据库：</p><ul><li>IBM DB2 UDB 9.5:仅支持 &lt;&gt;</li><li>Apache Derby:仅支持 &lt;&gt;</li></ul><p>建议使用&lt;&gt;标识不等于关系，这样适配所有的数据库</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>MySQL</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>产品更新相关</title>
+    <link href="/2020/03/17/%E4%BA%A7%E5%93%81%E6%9B%B4%E6%96%B0%E7%9B%B8%E5%85%B3/"/>
+    <url>/2020/03/17/%E4%BA%A7%E5%93%81%E6%9B%B4%E6%96%B0%E7%9B%B8%E5%85%B3/</url>
+    
+    <content type="html"><![CDATA[<h3 id="产品更新迭代注意事项："><a href="#产品更新迭代注意事项：" class="headerlink" title="产品更新迭代注意事项："></a>产品更新迭代注意事项：</h3><hr><ol><li><p>版本兼容<br>新版本要兼容老版本，因为服务器与客户端更新不同步的话，会导致老版本不能正常使用（这里指的是不停机更新，不讨论其他情况）</p><ul><li>服务器更新后，客户端没有及时更新，导致老版本出错</li><li>客户端更新后，服务器没有及时更新，导致客户端更新内容不能使用</li></ul><p>解决方案：</p></li></ol><p>​        一般都是服务器先更新后台逻辑代码，并兼容老版本的逻辑，然后客户端更新，正常使用新增逻辑（客户端强制更新），用户体验上来说没有什么差别，等到下次更新客户端的时候就可以把为了兼容老版本的多余代码移除掉。</p><ol start="2"><li>其他内容待添加</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>产品更新</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>去除windows脚本cmd小黑框</title>
+    <link href="/2020/03/17/%E5%8E%BB%E9%99%A4windows%E8%84%9A%E6%9C%ACcmd%E5%B0%8F%E9%BB%91%E6%A1%86/"/>
+    <url>/2020/03/17/%E5%8E%BB%E9%99%A4windows%E8%84%9A%E6%9C%ACcmd%E5%B0%8F%E9%BB%91%E6%A1%86/</url>
+    
+    <content type="html"><![CDATA[<p>去除windows bat或cmd命令的小黑框</p><ol><li>新建文件保存为run.vbs,example.cmd 是要执行的脚本</li></ol><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs routeros"><span class="hljs-built_in">Set</span> ws = CreateObject(<span class="hljs-string">&quot;Wscript.Shell&quot;</span>)    <br>ws.<span class="hljs-built_in">run</span> <span class="hljs-string">&quot;cmd /c C:\IIMS\serverscmd\example.cmd&quot;</span>,0<br></code></pre></td></tr></table></figure><p>参考： weixin_30723433老哥</p><ol start="2"><li>不适用vb，调用脚本，在脚本中直接指定</li></ol><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs less"><span class="hljs-comment">//autoStart.bat</span><br><span class="hljs-variable">@echo</span> off <br>if <span class="hljs-string">&quot;%1&quot;</span> == <span class="hljs-string">&quot;h&quot;</span> goto begin <br>mshta <span class="hljs-attribute">vbscript</span>:<span class="hljs-built_in">createobject</span>(<span class="hljs-string">&quot;wscript.shell&quot;</span>).<span class="hljs-built_in">run</span>(<span class="hljs-string">&quot;&quot;</span><span class="hljs-string">&quot;%~nx0&quot;</span><span class="hljs-string">&quot; h&quot;</span>,<span class="hljs-number">0</span>)(window.close)&amp;&amp;<span class="hljs-attribute">exit </span><br><span class="hljs-attribute"></span>:begin <br><span class="hljs-comment">//上面是添加隐藏黑框框的</span><br><span class="hljs-comment">//下面放自己脚本需要执行的命令</span><br></code></pre></td></tr></table></figure><p>ps:这种在脚本中直接关闭黑框的方法，如果启动多个程序的时候，就会提示脚本错误。（注意点自己的需求就好）</p><p>参考： weixin_30648587老哥</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Windows</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>go func</title>
     <link href="/2020/03/01/goFunc/"/>
     <url>/2020/03/01/goFunc/</url>
@@ -367,6 +546,214 @@
     <tags>
       
       <tag>Go</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>MySQL按天建表</title>
+    <link href="/2020/01/02/MySQL%E6%8C%89%E5%A4%A9%E5%BB%BA%E8%A1%A8/"/>
+    <url>/2020/01/02/MySQL%E6%8C%89%E5%A4%A9%E5%BB%BA%E8%A1%A8/</url>
+    
+    <content type="html"><![CDATA[<p>mysql设置定时任务：</p><p>需求：mysql数据库里面做个定时任务自动每天创建一张表。</p><ol><li>查看是否开启event与开启event</li></ol><p><code>show variables like &#39;%sche%&#39;;  </code></p><p>若未开启</p><p><code>set global event_scheduler =1;</code></p><ol start="2"><li>创建存储过程</li></ol><p>每天创建一个名为 test_年月日的表</p><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-keyword">delimiter</span> //<br><br><span class="hljs-keyword">drop</span> <span class="hljs-keyword">procedure</span> <span class="hljs-keyword">if</span> <span class="hljs-keyword">exists</span> create_table01//<br><br><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">PROCEDURE</span> create_table01()<br><br><span class="hljs-keyword">BEGIN</span><br><br><span class="hljs-keyword">declare</span> str_date <span class="hljs-type">varchar</span>(<span class="hljs-number">50</span>);<br><br><span class="hljs-keyword">SET</span> str_date = date_format(now(),<span class="hljs-string">&#x27;%Y%m%d&#x27;</span>);  <br><br> <br><br><span class="hljs-keyword">SET</span> @sqlcmd1 = CONCAT(<span class="hljs-string">&#x27;CREATE TABLE test_&#x27;</span>,str_date,<span class="hljs-string">&#x27;(</span><br><span class="hljs-string"></span><br><span class="hljs-string">id int(11) not null auto_increment primary key,</span><br><span class="hljs-string"></span><br><span class="hljs-string">time datetime not null</span><br><span class="hljs-string"></span><br><span class="hljs-string">) ;&#x27;</span>);<br><br><span class="hljs-keyword">PREPARE</span> p1 <span class="hljs-keyword">FROM</span> @sqlcmd1;<br><br><span class="hljs-keyword">EXECUTE</span> p1;<br><br><span class="hljs-keyword">DEALLOCATE</span> <span class="hljs-keyword">PREPARE</span> p1;<br><br><span class="hljs-keyword">END</span>//<br><br><span class="hljs-keyword">delimiter</span> ;<br></code></pre></td></tr></table></figure><ol start="3"><li>创建事件，调用存储过程</li></ol><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs csharp">drop <span class="hljs-keyword">event</span> <span class="hljs-keyword">if</span> exists test_event01;<br><br>create <span class="hljs-keyword">event</span> test_event01<br><br><span class="hljs-keyword">on</span> schedule every <span class="hljs-number">1</span> <span class="hljs-function">DAY STARTS <span class="hljs-title">NOW</span>()</span><br><span class="hljs-function"></span><br><span class="hljs-function"><span class="hljs-keyword">do</span> call <span class="hljs-title">create_table01</span>()</span>;<br></code></pre></td></tr></table></figure><p>开启事件</p><p><code>alter event test_event on completion preserve enable;</code></p><p><code>show tables;</code></p><p>查询是否建表成功</p><p>若是想关闭事件：</p><p><code>alter event test_event on completion preserve disable;</code></p><ol start="4"><li>事件执行时间的设置</li></ol><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">CREATE</span> EVENT test_event01 <span class="hljs-literal">ON</span> SCHEDULE EVERY <span class="hljs-number">1</span> DAY STARTS &#x27;<span class="hljs-number">2012</span>-<span class="hljs-number">09</span>-<span class="hljs-number">24</span> <span class="hljs-number">00</span>:<span class="hljs-number">00</span>:<span class="hljs-number">00</span>&#x27;<br><br><span class="hljs-attribute">ON</span> COMPLETION PRESERVE ENABLE DO CALL  create_table01();<br><br><span class="hljs-attribute">EVERY</span> #后面的是时间间隔，可以选 <span class="hljs-number">1</span> second，<span class="hljs-number">3</span> minute，<span class="hljs-number">5</span> hour，<span class="hljs-number">9</span> day，<span class="hljs-number">1</span> month，<span class="hljs-number">1</span> quarter（季度），<span class="hljs-number">1</span> year<br><br><span class="hljs-comment">#从2013年1月13号0点开始，每天运行一次</span><br><br><span class="hljs-attribute">ON</span> SCHEDULE EVERY <span class="hljs-number">1</span> DAY   STARTS &#x27;<span class="hljs-number">2013</span>-<span class="hljs-number">01</span>-<span class="hljs-number">13</span> <span class="hljs-number">00</span>:<span class="hljs-number">00</span>:<span class="hljs-number">00</span>&#x27;<br><br><span class="hljs-comment">#从现在开始每隔九天定时执行</span><br><br><span class="hljs-attribute">ON</span> SCHEDULE EVERY <span class="hljs-number">9</span> DAY STARTS NOW() ；<br><br><span class="hljs-comment">#每个月的一号凌晨1 点执行</span><br><br><span class="hljs-attribute">on</span> schedule every <span class="hljs-number">1</span> month starts date_add(date_add(date_sub(curdate(),interval day(curdate())-<span class="hljs-number">1</span> day),interval <span class="hljs-number">1</span> month),interval <span class="hljs-number">1</span> hour);<br><br><span class="hljs-comment">#每个季度一号的凌晨1点执行</span><br><br><span class="hljs-attribute">on</span> schedule every <span class="hljs-number">1</span> quarter starts date_add(date_add(date(concat(year(curdate()),&#x27;-&#x27;,elt(quarter(curdate()),<span class="hljs-number">1</span>,<span class="hljs-number">4</span>,<span class="hljs-number">7</span>,<span class="hljs-number">10</span>),&#x27;-&#x27;,<span class="hljs-number">1</span>)),interval <span class="hljs-number">1</span> quarter),interval <span class="hljs-number">1</span> hour);<br><br><span class="hljs-comment">#每年1月1号凌晨1点执行</span><br><br><span class="hljs-attribute">on</span> schedule every <span class="hljs-number">1</span> quarter starts date_add(date_add(date(concat(year(curdate()),&#x27;-&#x27;,elt(quarter(curdate()),<span class="hljs-number">1</span>,<span class="hljs-number">4</span>,<span class="hljs-number">7</span>,<span class="hljs-number">10</span>),&#x27;-&#x27;,<span class="hljs-number">1</span>)),interval <span class="hljs-number">1</span> quarter),interval <span class="hljs-number">1</span> hour);<br></code></pre></td></tr></table></figure><ol start="5"><li>几个相关概念</li></ol><p>存储程序：( 存储函数(stored function)+存储过程(stored procedure)+触发器(trigger)+事件(event) )</p><p>存储函数：返回一个计算结果，该结果可以用在表达式里</p><p>存储过程：不直接返回一个结果，但可以用来完成一般的运算或是生成一个结果集并传递会客户</p><p>触发器：与数据表关联，当那个数据表被 insert、delete、update语句修改时，触发器将自动执行</p><p>事件：根据时间表在预订时刻自动执行</p><p>原文地址：<a href="https://blog.csdn.net/vinking9393/article/details/84805050">https://blog.csdn.net/vinking9393/article/details/84805050</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>MySQL</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>二进制某位数0变1，1变0</title>
+    <link href="/2019/12/28/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9F%90%E4%BD%8D%E6%95%B00%E5%8F%981%EF%BC%8C1%E5%8F%980/"/>
+    <url>/2019/12/28/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9F%90%E4%BD%8D%E6%95%B00%E5%8F%981%EF%BC%8C1%E5%8F%980/</url>
+    
+    <content type="html"><![CDATA[<p>二进制操作（使用Go语言实现）</p><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs 1c"><span class="hljs-comment">// 把第三位修改为0，标识没有在线奖励可以领取</span><br>replyStatus.Status = replyStatus.Status <span class="hljs-meta">&amp;^ (1 &lt;&lt; 2) </span><br><br><span class="hljs-comment">// 把第三位修改为1，标识有在线奖励未领取</span><br>reply.Status <span class="hljs-string">|= (1 &lt;&lt; 2) </span><br><br><span class="hljs-comment">// 把binar的二进制数，第n+1位设置成1</span><br>binar <span class="hljs-string">|  (1&lt;&lt;n) </span><br><br><span class="hljs-comment">// 把binar的二进制数，第n+1位设置成0</span><br>binar <span class="hljs-meta">&amp;^ (1 &lt;&lt; n) </span><br><br><span class="hljs-comment">// 在Go中实际使用,如需改变原数,可直接使用如下形式</span><br>binar <span class="hljs-string">|=  (1&lt;&lt;n) </span><br>binar <span class="hljs-meta">&amp;= ^(1 &lt;&lt; n) </span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>算法</tag>
+      
+      <tag>二进制</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>MySQL57的安装与使用</title>
+    <link href="/2019/12/01/MySQL57%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <url>/2019/12/01/MySQL57%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<ul><li>下载安装MySQL57</li></ul><ol><li>去官网下载MySQL57的安装包，<a href="https://dev.mysql.com/downloads/installer/">https://dev.mysql.com/downloads/installer/</a><br>不选择最新版本，点击选择其他版本</li></ol><p>点击下载</p><p>选择只开始我的下载</p><p>下载完成后，双击可运行程序<br>ps：安装过程中，能next的地方就next，这种界面就暂不提供截图分享了</p><p>设置数据库使用的端口号</p><p>设置数据库的密码</p><p>设置数据库的DOS命令启动名称</p><p>等待安装完成后Execute，然后finish就安装好了</p><p>输入用户名密码，连接到数据库，这里默认的是root最高权限账户</p><ul><li>DOS简单使用MySQL57<br>使用DOS命令操作数据库之前先要配置好MySQL的环境变量，同jdk的配置方式一样</li></ul><p>ps：经过install安装工具连接成功之后就不用再使用下边的DOS命令，应为服务已经启动了</p><p>MySQL服务安装</p><p><code>mysqld -install</code></p><p>启动MySQL数据库</p><p><code>net start mysql</code></p><p>关闭MySQL数据库</p><p><code>net stop mysql</code></p><p>连接数据库（-h 数据库的IP地址，-u用户名 -p密码）</p><p><code>mysql -h 127.0.0.1 -u root  -p</code></p><p>ps:进入数据库之后就可以使用标准SQL语句去执行，dos下密码的输入是隐式的，就是说你输密码的时候自己看不到，只要输入后回车就可以了</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>MySQL</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>用Go在windows编译linux可执行文件</title>
+    <link href="/2019/12/01/%E7%94%A8Go%E5%9C%A8windows%E7%BC%96%E8%AF%91linux%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/"/>
+    <url>/2019/12/01/%E7%94%A8Go%E5%9C%A8windows%E7%BC%96%E8%AF%91linux%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[<p>用Go在windows编译linux可执行文件</p><p>一、配置好windows下的Go环境<br>    <code>GOPATH   GOROOT</code></p><p>二、进入CMD命令窗口</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs routeros"><span class="hljs-built_in">SET</span> <span class="hljs-attribute">GOARCH</span>=amd64<br><span class="hljs-built_in">SET</span><span class="hljs-attribute">GOOS</span>=linux<br></code></pre></td></tr></table></figure><p>注意： “=”两边不要留空格，否则会修改参数失败，编译出来的还是window下的可执行文件。具体原因我也不清楚，不加空格就对了。</p><p>三、编译文件<br>    <code>go build XXX.go</code></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Go</tag>
+      
+      <tag>Windows</tag>
+      
+      <tag>Linux</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>maven的安装</title>
+    <link href="/2019/12/01/maven%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+    <url>/2019/12/01/maven%E7%9A%84%E5%AE%89%E8%A3%85/</url>
+    
+    <content type="html"><![CDATA[<ul><li>下载maven<br>先去官网下载maven的压缩包文件<br><a href="http://maven.apache.org/download.cgi">http://maven.apache.org/download.cgi</a></li></ul><p>下载到本地之后，直接解压到目录文件中即可，然后配置maven的环境变量，这里就不多说了</p><p>然后DOS命令执行</p><p><code>mvn -v</code></p><p>显示下边的信息就证明maven安装好了</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Maven</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Git命令的简单使用</title>
+    <link href="/2019/03/06/Git%E5%91%BD%E4%BB%A4%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/"/>
+    <url>/2019/03/06/Git%E5%91%BD%E4%BB%A4%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<ul><li>下载Git<br>windows版本下载地址：<a href="https://gitforwindows.org/">https://gitforwindows.org/</a><br>其他版本可以去 <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a><br>下载GUI Client 图形化界面工具（比如：SourceTree）<br>下载好后双击运行，我才用的傻瓜式安装，直接NEXT就好。其中有一个默认的文本编辑方式，vim（使用方法和linux一样）。</li></ul><p>安装好后，就可以右键桌面—&gt;Git Bash Heare 打开命令窗口了<br>打开之后的效果：</p><ul><li>创建GitHub远程仓库<br>注册GitHub账号，地址：<a href="https://github.com/">https://github.com/</a><br>创建Git仓库<br>然后保存这里的连接用于连接远程仓库地址<br>三、使用Git连接远程仓库<br>打开Git命令行窗口，克隆远程仓库</li></ul><p><code>git clone https://github.com/xinyi-jin/test.git</code></p><p>后边的链接指的是上一步复制的远程仓库地址<br>经过上边的操作，就可以把远程仓库的东西复制到本地，因为我是刚刚创建的远程仓库，还没来得及放东西，所以就提示我克隆的是一个空目录</p><p>进入克隆好的本地仓库目录，添加需要上传的文件到暂存区</p><p><code>git add .</code></p><p>add 后边的“.”代表本目录下所有的文件 </p><p>提交暂存区中修改的信息到本地版本库中</p><p><code>git commit -m &quot;test commit&quot;</code></p><p>-m 指的是提交信息的描述</p><p>4.最后提交本地修改到远程仓库</p><p><code>git push -u origin master</code></p><p>ps:这一步操作需要输入GitHub的账号密码。origin 和master 为默认信息<br>使用git status可以查看当前本地仓库文件的状态</p><p>四、查看GitHub远程仓库</p><p>GitHub源码：<a href="https://github.com/xinyi-jin/">https://github.com/xinyi-jin/</a></p><p>ps:部分浏览器不支持，会显示日期错误</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>JS两个日期之间计算时间差</title>
+    <link href="/2019/03/06/JS%E4%B8%A4%E4%B8%AA%E6%97%A5%E6%9C%9F%E4%B9%8B%E9%97%B4%E8%AE%A1%E7%AE%97%E6%97%B6%E9%97%B4%E5%B7%AE/"/>
+    <url>/2019/03/06/JS%E4%B8%A4%E4%B8%AA%E6%97%A5%E6%9C%9F%E4%B9%8B%E9%97%B4%E8%AE%A1%E7%AE%97%E6%97%B6%E9%97%B4%E5%B7%AE/</url>
+    
+    <content type="html"><![CDATA[<ul><li>计算两个日期之间相差的毫秒数（也就是两个日期的时间戳差）<br>这里有几种常见的JS方式，来获得日期的毫秒数。</li></ul><ol><li><p>日期对象的 getTime();方法</p></li><li><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs arcade">&lt;script&gt;<br>    <span class="hljs-keyword">var</span> <span class="hljs-built_in">date</span> = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>(); <span class="hljs-comment">//新建一个日期对象，默认现在的时间</span><br><span class="hljs-keyword">var</span> <span class="hljs-built_in">timestamp</span> = <span class="hljs-built_in">date</span>.getTime();<span class="hljs-comment">//调用getTime()方法获取毫秒数</span><br>alert(<span class="hljs-string">&quot;timestamp: &quot;</span>+<span class="hljs-built_in">timestamp</span>);<br>&lt;/script&gt;<br></code></pre></td></tr></table></figure></li><li><p>日期对象的valueOf();方法</p></li><li><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs arcade">&lt;script&gt;<br>    <span class="hljs-keyword">var</span> <span class="hljs-built_in">date</span> = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>(); <span class="hljs-comment">//新建一个日期对象，默认现在的时间</span><br><span class="hljs-keyword">var</span> <span class="hljs-built_in">timestamp</span> = <span class="hljs-built_in">date</span>.valueOf(<span class="hljs-built_in">date</span>); <span class="hljs-comment">//调用valueOf()方法获取毫秒数</span><br>alert(<span class="hljs-string">&quot;timestamp: &quot;</span>+<span class="hljs-built_in">timestamp</span>);<br>&lt;/script&gt;<br></code></pre></td></tr></table></figure></li><li><p>Date对象的parse();方法</p></li></ol><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs arcade">&lt;script&gt;<br>    <span class="hljs-keyword">var</span> <span class="hljs-built_in">date</span> = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>(); <span class="hljs-comment">//新建一个日期对象，默认现在的时间</span><br><span class="hljs-keyword">var</span> <span class="hljs-built_in">timestamp</span> = <span class="hljs-built_in">Date</span>.parse(<span class="hljs-built_in">date</span>);<span class="hljs-comment">//使用Date对象的parse()方法，获取毫秒数</span><br>alert(<span class="hljs-string">&quot;timestamp: &quot;</span>+<span class="hljs-built_in">timestamp</span>);<br>&lt;/script&gt;<br></code></pre></td></tr></table></figure><ul><li>用现在时间的毫秒数减去过去时间的毫秒数，得到的就是两个日期相差的总毫秒数。<br>ps：可以使用上述的三种方法，另外还有一种最为简单的方法。如果两个日期对象都是Date类型的话，可以直接相减，得到的就是毫秒数差。</li></ul><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="language-javascript"></span><br><span class="language-javascript"><span class="hljs-keyword">var</span> new_date = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(); <span class="hljs-comment">//新建一个日期对象，默认现在的时间</span></span><br><span class="language-javascript"><span class="hljs-keyword">var</span> old_date = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&quot;2018-12-12 00:00:00&quot;</span>); <span class="hljs-comment">//设置过去的一个时间点，&quot;yyyy-MM-dd HH:mm:ss&quot;格式化日期</span></span><br><span class="language-javascript"></span><br><span class="language-javascript"><span class="hljs-keyword">var</span> difftime = new_date - old_date; <span class="hljs-comment">//计算时间差</span></span><br><span class="language-javascript"></span><br><span class="language-javascript"><span class="hljs-title function_">alert</span>(<span class="hljs-string">&quot;difftime: &quot;</span>+difftime);</span><br><span class="language-javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span><br></code></pre></td></tr></table></figure><ul><li>得到了两个日期的毫秒差之后，就可以转化成具体的日期格式（xxxx年xx月xx天，xx小时xx分钟xx秒）<br>因为我们获取的是毫秒，所有要先转换成秒。1秒=1000毫秒</li></ul><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="language-javascript"></span><br><span class="language-javascript"><span class="hljs-keyword">var</span> new_date = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(); <span class="hljs-comment">//新建一个日期对象，默认现在的时间</span></span><br><span class="language-javascript"><span class="hljs-keyword">var</span> old_date = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(<span class="hljs-string">&quot;2018-12-12 00:00:00&quot;</span>); <span class="hljs-comment">//设置过去的一个时间点，&quot;yyyy-MM-dd HH:mm:ss&quot;格式化日期</span></span><br><span class="language-javascript"></span><br><span class="language-javascript"><span class="hljs-keyword">var</span> difftime = (new_date - old_date)/<span class="hljs-number">1000</span>; <span class="hljs-comment">//计算时间差,并把毫秒转换成秒</span></span><br><span class="language-javascript"></span><br><span class="language-javascript"><span class="hljs-keyword">var</span> days = <span class="hljs-built_in">parseInt</span>(difftime/<span class="hljs-number">86400</span>); <span class="hljs-comment">// 天  24*60*60*1000 </span></span><br><span class="language-javascript"><span class="hljs-keyword">var</span> hours = <span class="hljs-built_in">parseInt</span>(difftime/<span class="hljs-number">3600</span>)-<span class="hljs-number">24</span>*days;    <span class="hljs-comment">// 小时 60*60 总小时数-过去的小时数=现在的小时数 </span></span><br><span class="language-javascript"><span class="hljs-keyword">var</span> minutes = <span class="hljs-built_in">parseInt</span>(difftime%<span class="hljs-number">3600</span>/<span class="hljs-number">60</span>); <span class="hljs-comment">// 分钟 -(day*24) 以60秒为一整份 取余 剩下秒数 秒数/60 就是分钟数</span></span><br><span class="language-javascript"><span class="hljs-keyword">var</span> seconds = <span class="hljs-built_in">parseInt</span>(difftime%<span class="hljs-number">60</span>);  <span class="hljs-comment">// 以60秒为一整份 取余 剩下秒数</span></span><br><span class="language-javascript"></span><br><span class="language-javascript"><span class="hljs-title function_">alert</span>(<span class="hljs-string">&quot;时间差是: &quot;</span>+days+<span class="hljs-string">&quot;天, &quot;</span>+hours+<span class="hljs-string">&quot;小时, &quot;</span>+minutes+<span class="hljs-string">&quot;分钟, &quot;</span>+seconds+<span class="hljs-string">&quot;秒&quot;</span>);</span><br><span class="language-javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span><br></code></pre></td></tr></table></figure><p>另外本人踩过坑的一个项目，还是从网上获取的别人的代码，不曾想还是个有bug的项目。<br>1<br>当时这种方式设置日期，然后再获取毫秒数，就会出现30天的时间差。后来干脆直接格式化一下日期放进去，没想到就对了。我也很懵比，有知道的大牛，可以告知一下这样做为什么会好，万分感谢！！！</p><p>GitHub源码：<a href="https://github.com/xinyi-jin/Romantic-confession">https://github.com/xinyi-jin/Romantic-confession</a></p><p>ps:部分浏览器不支持，会显示日期错误</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Html</tag>
+      
+      <tag>Js</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>网站标签页如何添加左边的小图标</title>
+    <link href="/2019/02/28/%E7%BD%91%E7%AB%99%E6%A0%87%E7%AD%BE%E9%A1%B5%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%B7%A6%E8%BE%B9%E7%9A%84%E5%B0%8F%E5%9B%BE%E6%A0%87/"/>
+    <url>/2019/02/28/%E7%BD%91%E7%AB%99%E6%A0%87%E7%AD%BE%E9%A1%B5%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%B7%A6%E8%BE%B9%E7%9A%84%E5%B0%8F%E5%9B%BE%E6%A0%87/</url>
+    
+    <content type="html"><![CDATA[<p>一、首先需要制作一个ico小图标</p><p>可以去阿里云矢量图库，找一张自己喜欢的图标（图标大小：128x128）链接：<a href="https://www.iconfont.cn/">https://www.iconfont.cn/</a></p><p>下载的格式推荐png，可以在线转换.ico格式。在线转换地址：<a href="http://www.favicon-icon-generator.com/?tdsourcetag=s_pcqq_aiomsg">http://www.favicon-icon-generator.com/?tdsourcetag=s_pcqq_aiomsg</a><br>ps：下载好后的图片可以重命名，但是后缀名千万不能改，不然就不能用了…</p><p>二、需要将制作好的ico小图标放到项目的根目录下</p><p>三、需要在要显示图标的页面，head标签中加入</p><p><code>&lt;link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;pig.ico&quot; /&gt;</code></p><p>保存文件，重新打开页面就好了</p><p>四、如果需要发布到服务器上，直接使用文件传输工具上传就可以了</p><p>ps：上传文件之后访问，如果不显示的话，就重启一下服务再试试。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Html</tag>
       
     </tags>
     
