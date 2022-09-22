@@ -17,25 +17,54 @@
   
   
   <entry>
-    <title>万物皆可交换</title>
-    <link href="/2022/09/21/2022-09-21-%E4%B8%87%E7%89%A9%E7%9A%86%E5%8F%AF%E4%BA%A4%E6%8D%A2/"/>
-    <url>/2022/09/21/2022-09-21-%E4%B8%87%E7%89%A9%E7%9A%86%E5%8F%AF%E4%BA%A4%E6%8D%A2/</url>
+    <title>标准化</title>
+    <link href="/2022/09/22/2022-09-22-%E6%A0%87%E5%87%86%E5%8C%96/"/>
+    <url>/2022/09/22/2022-09-22-%E6%A0%87%E5%87%86%E5%8C%96/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h3 id="标准化基础知识-标准的分类"><a href="#标准化基础知识-标准的分类" class="headerlink" title="标准化基础知识-标准的分类"></a>标准化基础知识-标准的分类</h3><ul><li>国际标准</li><li>国家标准：GB-中国、ANSI-美国、BS-英国、JSI-日本</li><li>区域标准</li><li>行业标准：GJB-中国军用标准、MIT-S-美国军用标准、IEEE-美国电气电子工程师协会</li><li>地方标准：国家的地方一级行政行政机构制定的标准</li><li>企业标准</li><li>项目规范：</li></ul><h3 id="标准化基础知识-标准的编号"><a href="#标准化基础知识-标准的编号" class="headerlink" title="标准化基础知识-标准的编号"></a>标准化基础知识-标准的编号</h3><ul><li>国际、国外标准代号：标准代号+专业类号+顺序号+年代号</li><li>我国国家标准代号：强制性标准代号为GB、推荐性标准代号为GB/T、指导性标准代号为GB/Z、实物标准代号GSB</li><li>行业标准代号：由汉语拼音大写字母组成（电子行业SJ）</li><li>地方标准代号：由DB加上升级行政区划代码的前两位</li><li>企业标准代号：由Q加上企业代号组成</li></ul>]]></content>
     
     
     <categories>
       
-      <category>生活【奇奇怪怪的想法，随手一记】</category>
+      <category>学习【资料整理记录】</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>万物</tag>
+      <tag>软件设计师【软考】</tag>
       
-      <tag>交换</tag>
+      <tag>标准化</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>法律法规</title>
+    <link href="/2022/09/22/2022-09-22-%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/"/>
+    <url>/2022/09/22/2022-09-22-%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/</url>
+    
+    <content type="html"><![CDATA[<h3 id="法律法规-内容提要"><a href="#法律法规-内容提要" class="headerlink" title="法律法规-内容提要"></a>法律法规-内容提要</h3><h4 id="从所涉及的法律法规角度"><a href="#从所涉及的法律法规角度" class="headerlink" title="从所涉及的法律法规角度"></a>从所涉及的法律法规角度</h4><ul><li>著作权法</li><li>计算机软件保护条例</li><li>商标法</li><li>专利法</li></ul><h4 id="从试题考点分布的角度"><a href="#从试题考点分布的角度" class="headerlink" title="从试题考点分布的角度"></a>从试题考点分布的角度</h4><ul><li>保护期限</li><li>知识产权人确定</li><li>侵权判断</li></ul><h4 id="知识产权"><a href="#知识产权" class="headerlink" title="知识产权"></a>知识产权</h4><ul><li>著作权及邻接权（保护作者意外与之相关的）</li><li>专利权</li><li>工业品外观设计圈</li><li>商标权</li><li>地理标志权</li><li>集成电路布图设计权</li></ul><h3 id="法律法规-保护期限"><a href="#法律法规-保护期限" class="headerlink" title="法律法规-保护期限"></a>法律法规-保护期限</h3><p><img src="/img/%E8%BD%AF%E8%80%83/Snipaste_2022-09-22_16-49-04.png" alt="Snipaste_2022-09-22_16-49-04.png"></p><h3 id="法律法规-知识产权人确定"><a href="#法律法规-知识产权人确定" class="headerlink" title="法律法规-知识产权人确定"></a>法律法规-知识产权人确定</h3><p><img src="/img/%E8%BD%AF%E8%80%83/Snipaste_2022-09-22_16-56-54.png" alt="Snipaste_2022-09-22_16-56-54.png"></p><p><img src="/img/%E8%BD%AF%E8%80%83/Snipaste_2022-09-22_17-03-24.png" alt="Snipaste_2022-09-22_17-03-24.png"></p><h3 id="侵权判定"><a href="#侵权判定" class="headerlink" title="侵权判定"></a>侵权判定</h3><ul><li>中国公民、法人或者其他组织的作品，不论是否发表，都享有著作权。</li><li>开发软件所用的思想、处理过程、操作方法或者数学概念不受保护。</li><li>著作权不适用于下列情形：<ul><li>法律、法规，国家机关的决议、决定、命令和请他具有立法、行政、司法性质的文件，及其官方正式译文；</li><li>时事新闻；</li><li>历法、通用数表、通用表格和公司。</li></ul></li></ul><p><img src="/img/%E8%BD%AF%E8%80%83/Snipaste_2022-09-22_17-16-03.png" alt="Snipaste_2022-09-22_17-16-03.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软件设计师【软考】</tag>
+      
+      <tag>法律</tag>
+      
+      <tag>软著</tag>
       
     </tags>
     
@@ -48,7 +77,7 @@
     <link href="/2022/09/21/2022-09-21-%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%E4%B8%8E%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%A8%8B%E5%BA%8F%E5%9F%BA%E7%A1%80/"/>
     <url>/2022/09/21/2022-09-21-%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%E4%B8%8E%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%A8%8B%E5%BA%8F%E5%9F%BA%E7%A1%80/</url>
     
-    <content type="html"><![CDATA[<h3 id="内容提要"><a href="#内容提要" class="headerlink" title="内容提要"></a>内容提要</h3><ul><li>编译与解释</li><li>文法</li><li><font color=red>正规式</font></li><li>有限自动机</li><li><font color=red>表达式</font></li><li><font color=red>传值与传址</font></li><li>多种程序语言特点</li></ul><h3 id="编译过程"><a href="#编译过程" class="headerlink" title="编译过程"></a>编译过程</h3><p>​    解释型、编译型</p><ul><li>源程序</li><li>词法分析</li><li>语法分析</li><li>语义分析</li><li>中间代码生成</li><li>代码优化</li><li>目标代码生成</li><li>目标程序</li></ul><h3 id="文法定义"><a href="#文法定义" class="headerlink" title="文法定义"></a>文法定义</h3><ul><li>0型：短语文法</li><li>1型：上下文有关文法</li><li>2型：上下文无关文法</li><li>3型：正规文法</li></ul>]]></content>
+    <content type="html"><![CDATA[<h3 id="内容提要"><a href="#内容提要" class="headerlink" title="内容提要"></a>内容提要</h3><ul><li>编译与解释</li><li>文法</li><li><font color=red>正规式</font></li><li><font color=red>有限自动机</font></li><li>表达式</li><li>传值与传址</li><li>多种程序语言特点</li></ul><h3 id="编译过程"><a href="#编译过程" class="headerlink" title="编译过程"></a>编译过程</h3><p>​    解释型、编译型</p><ul><li>源程序</li><li>词法分析</li><li>语法分析</li><li>语义分析</li><li>中间代码生成</li><li>代码优化</li><li>目标代码生成</li><li>目标程序</li></ul><h3 id="文法定义"><a href="#文法定义" class="headerlink" title="文法定义"></a>文法定义</h3><ul><li>0型：短语文法</li><li>1型：上下文有关文法</li><li>2型：上下文无关文法</li><li>3型：正规文法</li></ul><h3 id="有限自动机"><a href="#有限自动机" class="headerlink" title="有限自动机"></a>有限自动机</h3><ul><li>有限状态自动机可以形象地用状态转换图表示</li></ul><h3 id="正规式"><a href="#正规式" class="headerlink" title="正规式"></a>正规式</h3><ul><li>有限自动机的而另一种表达形式</li></ul><h3 id="程序语言基础-表达式"><a href="#程序语言基础-表达式" class="headerlink" title="程序语言基础-表达式"></a>程序语言基础-表达式</h3><ul><li><p>前缀表达式</p></li><li><p>中缀表达式（一般表达式的形式）</p></li><li><p>后缀表达式</p><p>构建数按照前中后序遍历即可</p></li></ul><h3 id="函数调用-传值与传址"><a href="#函数调用-传值与传址" class="headerlink" title="函数调用-传值与传址"></a>函数调用-传值与传址</h3><ul><li>形参：函数声明时候的参数</li><li>实参：函数调用时候的参数</li></ul><h3 id="程序语言基础-多重程序语言特点"><a href="#程序语言基础-多重程序语言特点" class="headerlink" title="程序语言基础-多重程序语言特点"></a>程序语言基础-多重程序语言特点</h3><ol><li>Fortran语言（科学计算，执行效率高）</li><li>Pascal语言（为教学而开发的，表达能力强）</li><li>C语言（指针操作能力强，高效）</li><li>Lisp（函数式程序语言，符号处理，人工智能）</li><li>C++（面向对象，高效）</li><li>Java（面向对象，中间代码，跨平台）</li><li>C#（面向对象，中间代码，.NET）</li><li>Prolog语言（逻辑推理，简洁性，表达能力，数据库和专家系统）</li></ol>]]></content>
     
     
     <categories>
@@ -65,6 +94,33 @@
       <tag>程序设计语言</tag>
       
       <tag>语言处理程序</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>万物皆可交换</title>
+    <link href="/2022/09/18/2022-09-21-%E4%B8%87%E7%89%A9%E7%9A%86%E5%8F%AF%E4%BA%A4%E6%8D%A2/"/>
+    <url>/2022/09/18/2022-09-21-%E4%B8%87%E7%89%A9%E7%9A%86%E5%8F%AF%E4%BA%A4%E6%8D%A2/</url>
+    
+    <content type="html"><![CDATA[<h4 id="前提："><a href="#前提：" class="headerlink" title="前提："></a>前提：</h4><ul><li>周末</li><li>想去看二手车</li><li>公司开会待岗内容</li><li>刚起床</li></ul><h4 id="经过："><a href="#经过：" class="headerlink" title="经过："></a>经过：</h4><p>起床洗漱，热粥，准备吃过后出去溜达看车。</p><p>就给我的老爸打了个视频电话，简单的聊天后，想到公司近期开会相关调整，就想着给我爸稍微说一下这个情况。</p><p>因为，我首先说的都是不好的影响，然后我爸就单方面认为这样子我没法整，租房吃饭，根本不够我的开销。而我的想法是，这也不失为一件好事，待岗的话，可以出去走走，放松开心一下，换个心情也挺好（因为近两年，我好像内心都不怎么开心）</p><p>老爸意思大概是这样的：毕业都这么久了，啥都没有，以后咋整。略微有点担忧，又有点恨铁不成刚的意思。咳~</p><p>我的意思大概是这样的：顺势而为，及时行乐，不强求任何东西。</p><h4 id="思考："><a href="#思考：" class="headerlink" title="思考："></a>思考：</h4><p>好多事情都可以用交换的概念来解释。</p><p>单方面是看到自己得到的薪资少了，而没有注意到自己不需要付出任何东西了。</p><p>薪资    付出的东西</p><p>本质就是交换，用时间、劳动来换取薪资。</p><p>进一步放大一点讲：婚姻也差不多是交换，用钱、车、房换取一个人而已。</p><p>小一点讲来说：吃饭也是一种交换，用时间，吃的行为来换取肚子不饿。</p><p>付出只要能和预期成一定比例，这个交换可以说就是有价值的。而并不一定是说一天读十本书的价值就要大于一天读一本书的价值，还需要看你付出和预期是否对等。</p><h4 id="结论："><a href="#结论：" class="headerlink" title="结论："></a>结论：</h4><p>万物皆可交换（有可能是个伪结论哦，毕竟仅代表个人短暂的一刻思考而已）</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活【奇奇怪怪的想法，随手一记】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>万物</tag>
+      
+      <tag>交换</tag>
       
     </tags>
     
