@@ -4,6 +4,64 @@
   
   
   <entry>
+    <title>Linux系统使用静态IP</title>
+    <link href="/2022/09/23/2022-09-23-Linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E9%9D%99%E6%80%81IP/"/>
+    <url>/2022/09/23/2022-09-23-Linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E9%9D%99%E6%80%81IP/</url>
+    
+    <content type="html"><![CDATA[<ol><li><p>使用命令行，进入 <code>/etc/sysconfig/network-scripts/</code>目录下；</p></li><li><p>修改ifcfg-ens33或者是ifcfg-eth0（一般为：ifcfg-*）文件：</p><p><code>vim ifcfg-ens33</code></p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-attr">TYPE</span>=<span class="hljs-string">&quot;Ethernet&quot;</span><br><span class="hljs-attr">PROXY_METHOD</span>=<span class="hljs-string">&quot;none&quot;</span><br><span class="hljs-attr">BROWSER_ONLY</span>=<span class="hljs-string">&quot;no&quot;</span><br><span class="hljs-attr">BOOTPROTO</span>=<span class="hljs-string">&quot;static&quot;</span><br><span class="hljs-attr">IPADDR</span>=<span class="hljs-number">192.168</span>.<span class="hljs-number">1.46</span><br><span class="hljs-attr">GATEWAY</span>=<span class="hljs-number">192.168</span>.<span class="hljs-number">1.1</span><br><span class="hljs-attr">NETMASK</span>=<span class="hljs-number">255.255</span>.<span class="hljs-number">255.0</span><br><span class="hljs-attr">DNS1</span>=<span class="hljs-number">8.8</span>.<span class="hljs-number">8.8</span><br><span class="hljs-attr">DNS2</span>=<span class="hljs-number">114.114</span>.<span class="hljs-number">114.114</span><br><span class="hljs-attr">DEFROUTE</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV4_FAILURE_FATAL</span>=<span class="hljs-string">&quot;no&quot;</span><br><span class="hljs-attr">IPV6INIT</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV6_AUTOCONF</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV6_DEFROUTE</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV6_FAILURE_FATAL</span>=<span class="hljs-string">&quot;no&quot;</span><br><span class="hljs-attr">IPV6_ADDR_GEN_MODE</span>=<span class="hljs-string">&quot;stable-privacy&quot;</span><br><span class="hljs-attr">NAME</span>=<span class="hljs-string">&quot;ens33&quot;</span><br><span class="hljs-attr">UUID</span>=<span class="hljs-string">&quot;d4c9b51e-f847-477c-967f-bf7e92802e0a&quot;</span><br><span class="hljs-attr">DEVICE</span>=<span class="hljs-string">&quot;ens33&quot;</span><br><span class="hljs-attr">ONBOOT</span>=<span class="hljs-string">&quot;yes&quot;</span><br></code></pre></td></tr></table></figure><ul><li>BOOTPROTO：”dhcp”动态ip，”static”静态ip<br>IPADDR：ip地址<br>GATEWAY：网关<br>NETMASK：子网掩码<br>DNS1：dns地址</li></ul></li><li><p>添加dns服务器</p><ol><li><code>vim /etc/resolv.conf</code> 写入dns地址 nameserver 8.8.8.8</li><li>保存退出，重启服务器。验证网络是否正常</li></ol></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Linux</tag>
+      
+      <tag>VmWare</tag>
+      
+      <tag>静态IP</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>VmWare断电后XFS(sda3):Corruption of in-memory data detected</title>
+    <link href="/2022/09/23/2022-09-23-VmWare%E6%96%AD%E7%94%B5%E5%90%8EXFS(sda3)Corruption-of-in-memory-data-detected/"/>
+    <url>/2022/09/23/2022-09-23-VmWare%E6%96%AD%E7%94%B5%E5%90%8EXFS(sda3)Corruption-of-in-memory-data-detected/</url>
+    
+    <content type="html"><![CDATA[<p>问题：VmWare断电后XFS(sda3):Corruption of in-memory data detected</p><p>原因：sda3内存数据损坏，需要进行磁盘修复操作</p><p>解决办法：</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs awk">umount <span class="hljs-regexp">/dev/</span>sda3<br>xfs_repair -v -L <span class="hljs-regexp">/dev/</span>sda3<br>reboot<br></code></pre></td></tr></table></figure><p>以上内容参考：<a href="https://blog.csdn.net/s19980228/article/details/107160008">虚拟机断电后centos7无法正常启动 XFS(sda3):Corruption of in-memory data detected</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>VmWare</tag>
+      
+      <tag>虚拟机</tag>
+      
+      <tag>系统报错</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2022/09/22/hello-world/"/>
     <url>/2022/09/22/hello-world/</url>

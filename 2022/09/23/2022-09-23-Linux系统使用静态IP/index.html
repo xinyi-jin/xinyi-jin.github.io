@@ -16,21 +16,24 @@
   <meta name="author" content="maomao">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="使用命令行，进入 &#x2F;etc&#x2F;sysconfig&#x2F;network-scripts&#x2F;目录下；  修改ifcfg-ens33或者是ifcfg-eth0（一般为：ifcfg-*）文件： vim ifcfg-ens33 1234567891011121314151617181920TYPE&#x3D;&quot;Ethernet&quot;PROXY_METHOD&#x3D;&quot;none&quot;BROWSER_O">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2022/09/22/hello-world/index.html">
+<meta property="og:title" content="Linux系统使用静态IP">
+<meta property="og:url" content="http://example.com/2022/09/23/2022-09-23-Linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E9%9D%99%E6%80%81IP/index.html">
 <meta property="og:site_name" content="maomao&#39;s blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="使用命令行，进入 &#x2F;etc&#x2F;sysconfig&#x2F;network-scripts&#x2F;目录下；  修改ifcfg-ens33或者是ifcfg-eth0（一般为：ifcfg-*）文件： vim ifcfg-ens33 1234567891011121314151617181920TYPE&#x3D;&quot;Ethernet&quot;PROXY_METHOD&#x3D;&quot;none&quot;BROWSER_O">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-09-22T09:58:35.734Z">
-<meta property="article:modified_time" content="2022-08-23T07:21:16.000Z">
+<meta property="article:published_time" content="2022-09-23T03:12:00.000Z">
+<meta property="article:modified_time" content="2022-09-23T03:59:17.000Z">
 <meta property="article:author" content="maomao">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="VmWare">
+<meta property="article:tag" content="静态IP">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Hello World - maomao&#39;s blog</title>
+  <title>Linux系统使用静态IP - maomao&#39;s blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -207,7 +210,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello World"></span>
+            <span id="subtitle" data-typed-text="Linux系统使用静态IP"></span>
           
         </div>
 
@@ -223,8 +226,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-09-22 17:58" pubdate>
-          2022-09-22 下午
+        <time datetime="2022-09-23 11:12" pubdate>
+          2022-09-23 上午
         </time>
       </span>
     
@@ -235,7 +238,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          367 字
+          814 字
         
       </span>
     
@@ -246,7 +249,7 @@
         
         
         
-          4 分钟
+          7 分钟
         
       </span>
     
@@ -284,24 +287,29 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hello World</h1>
+            <h1 style="display: none">Linux系统使用静态IP</h1>
             
             
               <div class="markdown-body">
                 
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+                <ol>
+<li><p>使用命令行，进入 <code>/etc/sysconfig/network-scripts/</code>目录下；</p>
+</li>
+<li><p>修改ifcfg-ens33或者是ifcfg-eth0（一般为：ifcfg-*）文件：</p>
+<p><code>vim ifcfg-ens33</code></p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-attr">TYPE</span>=<span class="hljs-string">&quot;Ethernet&quot;</span><br><span class="hljs-attr">PROXY_METHOD</span>=<span class="hljs-string">&quot;none&quot;</span><br><span class="hljs-attr">BROWSER_ONLY</span>=<span class="hljs-string">&quot;no&quot;</span><br><span class="hljs-attr">BOOTPROTO</span>=<span class="hljs-string">&quot;static&quot;</span><br><span class="hljs-attr">IPADDR</span>=<span class="hljs-number">192.168</span>.<span class="hljs-number">1.46</span><br><span class="hljs-attr">GATEWAY</span>=<span class="hljs-number">192.168</span>.<span class="hljs-number">1.1</span><br><span class="hljs-attr">NETMASK</span>=<span class="hljs-number">255.255</span>.<span class="hljs-number">255.0</span><br><span class="hljs-attr">DNS1</span>=<span class="hljs-number">8.8</span>.<span class="hljs-number">8.8</span><br><span class="hljs-attr">DNS2</span>=<span class="hljs-number">114.114</span>.<span class="hljs-number">114.114</span><br><span class="hljs-attr">DEFROUTE</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV4_FAILURE_FATAL</span>=<span class="hljs-string">&quot;no&quot;</span><br><span class="hljs-attr">IPV6INIT</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV6_AUTOCONF</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV6_DEFROUTE</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV6_FAILURE_FATAL</span>=<span class="hljs-string">&quot;no&quot;</span><br><span class="hljs-attr">IPV6_ADDR_GEN_MODE</span>=<span class="hljs-string">&quot;stable-privacy&quot;</span><br><span class="hljs-attr">NAME</span>=<span class="hljs-string">&quot;ens33&quot;</span><br><span class="hljs-attr">UUID</span>=<span class="hljs-string">&quot;d4c9b51e-f847-477c-967f-bf7e92802e0a&quot;</span><br><span class="hljs-attr">DEVICE</span>=<span class="hljs-string">&quot;ens33&quot;</span><br><span class="hljs-attr">ONBOOT</span>=<span class="hljs-string">&quot;yes&quot;</span><br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<ul>
+<li>BOOTPROTO：”dhcp”动态ip，”static”静态ip<br>IPADDR：ip地址<br>GATEWAY：网关<br>NETMASK：子网掩码<br>DNS1：dns地址</li>
+</ul>
+</li>
+<li><p>添加dns服务器</p>
+<ol>
+<li><code>vim /etc/resolv.conf</code> 写入dns地址 nameserver 8.8.8.8</li>
+<li>保存退出，重启服务器。验证网络是否正常</li>
+</ol>
+</li>
+</ol>
 
                 
               </div>
@@ -310,6 +318,38 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%AD%A6%E4%B9%A0%E3%80%90%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%E8%AE%B0%E5%BD%95%E3%80%91/" class="category-chain-item">学习【资料整理记录】</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/Linux/">#Linux</a>
+      
+        <a href="/tags/VmWare/">#VmWare</a>
+      
+        <a href="/tags/%E9%9D%99%E6%80%81IP/">#静态IP</a>
+      
+    </div>
   
 </div>
 
@@ -321,18 +361,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/09/23/2022-09-23-VmWare%E6%96%AD%E7%94%B5%E5%90%8EXFS(sda3)Corruption-of-in-memory-data-detected/" title="VmWare断电后XFS(sda3):Corruption of in-memory data detected">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">VmWare断电后XFS(sda3):Corruption of in-memory data detected</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/09/22/2022-09-22-%E6%A0%87%E5%87%86%E5%8C%96/" title="标准化">
-                        <span class="hidden-mobile">标准化</span>
+                      <a href="/2022/09/23/2022-09-23-VmWare%E6%96%AD%E7%94%B5%E5%90%8EXFS(sda3)Corruption-of-in-memory-data-detected/" title="VmWare断电后XFS(sda3):Corruption of in-memory data detected">
+                        <span class="hidden-mobile">VmWare断电后XFS(sda3):Corruption of in-memory data detected</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
