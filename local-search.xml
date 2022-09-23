@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>多媒体基础</title>
+    <link href="/2022/09/23/2022-09-23-%E5%A4%9A%E5%AA%92%E4%BD%93%E5%9F%BA%E7%A1%80/"/>
+    <url>/2022/09/23/2022-09-23-%E5%A4%9A%E5%AA%92%E4%BD%93%E5%9F%BA%E7%A1%80/</url>
+    
+    <content type="html"><![CDATA[<h3 id="多媒体基础"><a href="#多媒体基础" class="headerlink" title="多媒体基础"></a>多媒体基础</h3><h4 id="课程内容提要"><a href="#课程内容提要" class="headerlink" title="课程内容提要"></a>课程内容提要</h4><ul><li>多媒体技术基本概念</li><li>多媒体相关计算问题</li><li>常见多媒体标准</li><li>数据压缩技术</li></ul><h4 id="多媒体技术基本概念-音频"><a href="#多媒体技术基本概念-音频" class="headerlink" title="多媒体技术基本概念-音频"></a>多媒体技术基本概念-音频</h4><ul><li>声音的带宽（人耳20HZ-30KHZ，大于20kHz的是超声波）</li><li>采样：<ul><li>采样频度（采样频率应为声音最高频率2倍）</li><li>采样精度</li></ul></li></ul><h4 id="多媒体技术基本概念-图像"><a href="#多媒体技术基本概念-图像" class="headerlink" title="多媒体技术基本概念-图像"></a>多媒体技术基本概念-图像</h4><ul><li>亮度</li><li>色调</li><li>饱和度</li><li>彩色空间：RGB、YUV（电视黑白和彩色兼容）</li></ul><h4 id="多媒体技术基本概念-媒体"><a href="#多媒体技术基本概念-媒体" class="headerlink" title="多媒体技术基本概念-媒体"></a>多媒体技术基本概念-媒体</h4><ul><li>感觉媒体</li><li>表示媒体</li><li><font color=red>显示媒体（表现媒体）</font>：表现和获取信息的物理设备（输入、输出设备）</li><li>存储媒体</li><li>传输媒体</li></ul><h4 id="多媒体相关计算"><a href="#多媒体相关计算" class="headerlink" title="多媒体相关计算"></a>多媒体相关计算</h4><ol><li><p>图像容量计算</p><ol><li>位数</li><li>色数</li></ol></li><li><p>音频容量计算</p><p>容量 = 采样频率 X 量化/CIA杨位数 X 声道数 / 8</p></li><li><p>视频容量计算</p><p>容量 = 每帧图像容量 X 每秒帧数 X 时间 + 音频容量 X 时间</p></li></ol><h4 id="常见多媒体标准"><a href="#常见多媒体标准" class="headerlink" title="常见多媒体标准"></a>常见多媒体标准</h4><ul><li>JPEG：有损，离散余弦</li><li>JPEG-2000：有损&amp;无损、压缩比更高、医学图像应用</li><li>MPEG-1：MP3</li><li>MPEG-2：DVD</li><li>MPEG-4：增强交互性，无线通信，网络电话</li><li>MPEG-7:多媒体接口</li><li>MPEG-21：标准集成</li></ul><h4 id="数据压缩"><a href="#数据压缩" class="headerlink" title="数据压缩"></a>数据压缩</h4><ul><li>空间冗余（几何冗余）</li><li>时间冗余</li><li>视觉冗余</li><li>信息熵冗余</li><li>结构冗余</li><li>知识冗余</li></ul><h4 id="有损压缩与无损压缩"><a href="#有损压缩与无损压缩" class="headerlink" title="有损压缩与无损压缩"></a>有损压缩与无损压缩</h4><p><img src="/img/%E8%BD%AF%E8%80%83/Snipaste_2022-09-23_17-46-34.png" alt="Snipaste_2022-09-23_17-46-34.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软件设计师【软考】</tag>
+      
+      <tag>多媒体</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Linux系统使用静态IP</title>
     <link href="/2022/09/23/2022-09-23-Linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E9%9D%99%E6%80%81IP/"/>
     <url>/2022/09/23/2022-09-23-Linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E9%9D%99%E6%80%81IP/</url>

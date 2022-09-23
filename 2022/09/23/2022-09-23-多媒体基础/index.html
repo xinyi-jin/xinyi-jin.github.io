@@ -16,24 +16,25 @@
   <meta name="author" content="maomao">
   <meta name="keywords" content="">
   
-    <meta name="description" content="使用命令行，进入 &#x2F;etc&#x2F;sysconfig&#x2F;network-scripts&#x2F;目录下；  修改ifcfg-ens33或者是ifcfg-eth0（一般为：ifcfg-*）文件： vim ifcfg-ens33 1234567891011121314151617181920TYPE&#x3D;&quot;Ethernet&quot;PROXY_METHOD&#x3D;&quot;none&quot;BROWSER_O">
+    <meta name="description" content="多媒体基础课程内容提要 多媒体技术基本概念 多媒体相关计算问题 常见多媒体标准 数据压缩技术  多媒体技术基本概念-音频 声音的带宽（人耳20HZ-30KHZ，大于20kHz的是超声波） 采样： 采样频度（采样频率应为声音最高频率2倍） 采样精度    多媒体技术基本概念-图像 亮度 色调 饱和度 彩色空间：RGB、YUV（电视黑白和彩色兼容）  多媒体技术基本概念-媒体 感觉媒体 表示媒体 显示">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Linux系统使用静态IP">
-<meta property="og:url" content="http://example.com/2022/09/23/2022-09-23-Linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E9%9D%99%E6%80%81IP/index.html">
+<meta property="og:title" content="多媒体基础">
+<meta property="og:url" content="http://example.com/2022/09/23/2022-09-23-%E5%A4%9A%E5%AA%92%E4%BD%93%E5%9F%BA%E7%A1%80/index.html">
 <meta property="og:site_name" content="maomao&#39;s blog">
-<meta property="og:description" content="使用命令行，进入 &#x2F;etc&#x2F;sysconfig&#x2F;network-scripts&#x2F;目录下；  修改ifcfg-ens33或者是ifcfg-eth0（一般为：ifcfg-*）文件： vim ifcfg-ens33 1234567891011121314151617181920TYPE&#x3D;&quot;Ethernet&quot;PROXY_METHOD&#x3D;&quot;none&quot;BROWSER_O">
+<meta property="og:description" content="多媒体基础课程内容提要 多媒体技术基本概念 多媒体相关计算问题 常见多媒体标准 数据压缩技术  多媒体技术基本概念-音频 声音的带宽（人耳20HZ-30KHZ，大于20kHz的是超声波） 采样： 采样频度（采样频率应为声音最高频率2倍） 采样精度    多媒体技术基本概念-图像 亮度 色调 饱和度 彩色空间：RGB、YUV（电视黑白和彩色兼容）  多媒体技术基本概念-媒体 感觉媒体 表示媒体 显示">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-09-23T03:12:00.000Z">
-<meta property="article:modified_time" content="2022-09-23T03:59:17.000Z">
+<meta property="og:image" content="http://example.com/img/%E8%BD%AF%E8%80%83/Snipaste_2022-09-23_17-46-34.png">
+<meta property="article:published_time" content="2022-09-23T09:10:00.000Z">
+<meta property="article:modified_time" content="2022-09-23T09:48:52.000Z">
 <meta property="article:author" content="maomao">
-<meta property="article:tag" content="Linux">
-<meta property="article:tag" content="VmWare">
-<meta property="article:tag" content="静态IP">
+<meta property="article:tag" content="软件设计师【软考】">
+<meta property="article:tag" content="多媒体">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/img/%E8%BD%AF%E8%80%83/Snipaste_2022-09-23_17-46-34.png">
   
   
   
-  <title>Linux系统使用静态IP - maomao&#39;s blog</title>
+  <title>多媒体基础 - maomao&#39;s blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -210,7 +211,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Linux系统使用静态IP"></span>
+            <span id="subtitle" data-typed-text="多媒体基础"></span>
           
         </div>
 
@@ -226,8 +227,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-09-23 11:12" pubdate>
-          2022-09-23 上午
+        <time datetime="2022-09-23 17:10" pubdate>
+          2022-09-23 下午
         </time>
       </span>
     
@@ -238,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          814 字
+          453 字
         
       </span>
     
@@ -249,7 +250,7 @@
         
         
         
-          7 分钟
+          4 分钟
         
       </span>
     
@@ -287,29 +288,70 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Linux系统使用静态IP</h1>
+            <h1 style="display: none">多媒体基础</h1>
             
             
               <div class="markdown-body">
                 
-                <ol>
-<li><p>使用命令行，进入 <code>/etc/sysconfig/network-scripts/</code>目录下；</p>
-</li>
-<li><p>修改ifcfg-ens33或者是ifcfg-eth0（一般为：ifcfg-*）文件：</p>
-<p><code>vim ifcfg-ens33</code></p>
-<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-attr">TYPE</span>=<span class="hljs-string">&quot;Ethernet&quot;</span><br><span class="hljs-attr">PROXY_METHOD</span>=<span class="hljs-string">&quot;none&quot;</span><br><span class="hljs-attr">BROWSER_ONLY</span>=<span class="hljs-string">&quot;no&quot;</span><br><span class="hljs-attr">BOOTPROTO</span>=<span class="hljs-string">&quot;static&quot;</span><br><span class="hljs-attr">IPADDR</span>=<span class="hljs-number">192.168</span>.<span class="hljs-number">1.46</span><br><span class="hljs-attr">GATEWAY</span>=<span class="hljs-number">192.168</span>.<span class="hljs-number">1.1</span><br><span class="hljs-attr">NETMASK</span>=<span class="hljs-number">255.255</span>.<span class="hljs-number">255.0</span><br><span class="hljs-attr">DNS1</span>=<span class="hljs-number">8.8</span>.<span class="hljs-number">8.8</span><br><span class="hljs-attr">DNS2</span>=<span class="hljs-number">114.114</span>.<span class="hljs-number">114.114</span><br><span class="hljs-attr">DEFROUTE</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV4_FAILURE_FATAL</span>=<span class="hljs-string">&quot;no&quot;</span><br><span class="hljs-attr">IPV6INIT</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV6_AUTOCONF</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV6_DEFROUTE</span>=<span class="hljs-string">&quot;yes&quot;</span><br><span class="hljs-attr">IPV6_FAILURE_FATAL</span>=<span class="hljs-string">&quot;no&quot;</span><br><span class="hljs-attr">IPV6_ADDR_GEN_MODE</span>=<span class="hljs-string">&quot;stable-privacy&quot;</span><br><span class="hljs-attr">NAME</span>=<span class="hljs-string">&quot;ens33&quot;</span><br><span class="hljs-attr">UUID</span>=<span class="hljs-string">&quot;d4c9b51e-f847-477c-967f-bf7e92802e0a&quot;</span><br><span class="hljs-attr">DEVICE</span>=<span class="hljs-string">&quot;ens33&quot;</span><br><span class="hljs-attr">ONBOOT</span>=<span class="hljs-string">&quot;yes&quot;</span><br></code></pre></td></tr></table></figure>
-
-<ul>
-<li>BOOTPROTO：”dhcp”动态ip，”static”静态ip<br>IPADDR：ip地址<br>GATEWAY：网关<br>NETMASK：子网掩码<br>DNS1：dns地址</li>
+                <h3 id="多媒体基础"><a href="#多媒体基础" class="headerlink" title="多媒体基础"></a>多媒体基础</h3><h4 id="课程内容提要"><a href="#课程内容提要" class="headerlink" title="课程内容提要"></a>课程内容提要</h4><ul>
+<li>多媒体技术基本概念</li>
+<li>多媒体相关计算问题</li>
+<li>常见多媒体标准</li>
+<li>数据压缩技术</li>
+</ul>
+<h4 id="多媒体技术基本概念-音频"><a href="#多媒体技术基本概念-音频" class="headerlink" title="多媒体技术基本概念-音频"></a>多媒体技术基本概念-音频</h4><ul>
+<li>声音的带宽（人耳20HZ-30KHZ，大于20kHz的是超声波）</li>
+<li>采样：<ul>
+<li>采样频度（采样频率应为声音最高频率2倍）</li>
+<li>采样精度</li>
 </ul>
 </li>
-<li><p>添加dns服务器</p>
+</ul>
+<h4 id="多媒体技术基本概念-图像"><a href="#多媒体技术基本概念-图像" class="headerlink" title="多媒体技术基本概念-图像"></a>多媒体技术基本概念-图像</h4><ul>
+<li>亮度</li>
+<li>色调</li>
+<li>饱和度</li>
+<li>彩色空间：RGB、YUV（电视黑白和彩色兼容）</li>
+</ul>
+<h4 id="多媒体技术基本概念-媒体"><a href="#多媒体技术基本概念-媒体" class="headerlink" title="多媒体技术基本概念-媒体"></a>多媒体技术基本概念-媒体</h4><ul>
+<li>感觉媒体</li>
+<li>表示媒体</li>
+<li><font color=red>显示媒体（表现媒体）</font>：表现和获取信息的物理设备（输入、输出设备）</li>
+<li>存储媒体</li>
+<li>传输媒体</li>
+</ul>
+<h4 id="多媒体相关计算"><a href="#多媒体相关计算" class="headerlink" title="多媒体相关计算"></a>多媒体相关计算</h4><ol>
+<li><p>图像容量计算</p>
 <ol>
-<li><code>vim /etc/resolv.conf</code> 写入dns地址 nameserver 8.8.8.8</li>
-<li>保存退出，重启服务器。验证网络是否正常</li>
+<li>位数</li>
+<li>色数</li>
 </ol>
 </li>
+<li><p>音频容量计算</p>
+<p>容量 = 采样频率 X 量化/CIA杨位数 X 声道数 / 8</p>
+</li>
+<li><p>视频容量计算</p>
+<p>容量 = 每帧图像容量 X 每秒帧数 X 时间 + 音频容量 X 时间</p>
+</li>
 </ol>
+<h4 id="常见多媒体标准"><a href="#常见多媒体标准" class="headerlink" title="常见多媒体标准"></a>常见多媒体标准</h4><ul>
+<li>JPEG：有损，离散余弦</li>
+<li>JPEG-2000：有损&amp;无损、压缩比更高、医学图像应用</li>
+<li>MPEG-1：MP3</li>
+<li>MPEG-2：DVD</li>
+<li>MPEG-4：增强交互性，无线通信，网络电话</li>
+<li>MPEG-7:多媒体接口</li>
+<li>MPEG-21：标准集成</li>
+</ul>
+<h4 id="数据压缩"><a href="#数据压缩" class="headerlink" title="数据压缩"></a>数据压缩</h4><ul>
+<li>空间冗余（几何冗余）</li>
+<li>时间冗余</li>
+<li>视觉冗余</li>
+<li>信息熵冗余</li>
+<li>结构冗余</li>
+<li>知识冗余</li>
+</ul>
+<h4 id="有损压缩与无损压缩"><a href="#有损压缩与无损压缩" class="headerlink" title="有损压缩与无损压缩"></a>有损压缩与无损压缩</h4><p><img src="/img/%E8%BD%AF%E8%80%83/Snipaste_2022-09-23_17-46-34.png" srcset="/img/loading.gif" lazyload alt="Snipaste_2022-09-23_17-46-34.png"></p>
 
                 
               </div>
@@ -343,11 +385,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Linux/">#Linux</a>
+        <a href="/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%E3%80%90%E8%BD%AF%E8%80%83%E3%80%91/">#软件设计师【软考】</a>
       
-        <a href="/tags/VmWare/">#VmWare</a>
-      
-        <a href="/tags/%E9%9D%99%E6%80%81IP/">#静态IP</a>
+        <a href="/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/">#多媒体</a>
       
     </div>
   
@@ -361,18 +401,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/09/23/2022-09-23-%E5%A4%9A%E5%AA%92%E4%BD%93%E5%9F%BA%E7%A1%80/" title="多媒体基础">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">多媒体基础</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/09/23/2022-09-23-VmWare%E6%96%AD%E7%94%B5%E5%90%8EXFS(sda3)Corruption-of-in-memory-data-detected/" title="VmWare断电后XFS(sda3):Corruption of in-memory data detected">
-                        <span class="hidden-mobile">VmWare断电后XFS(sda3):Corruption of in-memory data detected</span>
+                      <a href="/2022/09/23/2022-09-23-Linux%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E9%9D%99%E6%80%81IP/" title="Linux系统使用静态IP">
+                        <span class="hidden-mobile">Linux系统使用静态IP</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
