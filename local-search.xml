@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>发送邮件</title>
+    <link href="/2022/10/12/2022-10-12-%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/"/>
+    <url>/2022/10/12/2022-10-12-%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[<h3 id="使用Go三方库来发送邮件"><a href="#使用Go三方库来发送邮件" class="headerlink" title="使用Go三方库来发送邮件"></a>使用Go三方库来发送邮件</h3><ul><li><a href="https://gopkg.in/gomail.v2">gopkg.in/gomail.v2</a></li><li><a href="https://github.com/jordan-wright/email">github.com/jordan-wright/email</a></li></ul><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs stylus">e := email<span class="hljs-selector-class">.NewEmail</span>()<br>e<span class="hljs-selector-class">.From</span> = <span class="hljs-string">&quot;Jordan Wright &lt;test@gmail.com&gt;&quot;</span><br>e<span class="hljs-selector-class">.To</span> = <span class="hljs-selector-attr">[]</span>string&#123;<span class="hljs-string">&quot;test@example.com&quot;</span>&#125;<br>e<span class="hljs-selector-class">.Bcc</span> = <span class="hljs-selector-attr">[]</span>string&#123;<span class="hljs-string">&quot;test_bcc@example.com&quot;</span>&#125;<br>e<span class="hljs-selector-class">.Cc</span> = <span class="hljs-selector-attr">[]</span>string&#123;<span class="hljs-string">&quot;test_cc@example.com&quot;</span>&#125;<br>e<span class="hljs-selector-class">.Subject</span> = <span class="hljs-string">&quot;Awesome Subject&quot;</span><br>e<span class="hljs-selector-class">.Text</span> = <span class="hljs-selector-attr">[]</span><span class="hljs-built_in">byte</span>(<span class="hljs-string">&quot;Text Body is, of course, supported!&quot;</span>)<br>e<span class="hljs-selector-class">.HTML</span> = <span class="hljs-selector-attr">[]</span><span class="hljs-built_in">byte</span>(<span class="hljs-string">&quot;&lt;h1&gt;Fancy HTML is supported, too!&lt;/h1&gt;&quot;</span>)<br>e<span class="hljs-selector-class">.Send</span>(<span class="hljs-string">&quot;smtp.gmail.com:587&quot;</span>, smtp<span class="hljs-selector-class">.PlainAuth</span>(<span class="hljs-string">&quot;&quot;</span>, <span class="hljs-string">&quot;test@gmail.com&quot;</span>, <span class="hljs-string">&quot;password123&quot;</span>, <span class="hljs-string">&quot;smtp.gmail.com&quot;</span>))<br></code></pre></td></tr></table></figure><p>参数解释：</p><ul><li>From：发件人</li><li>To：收件人（可以是多个）</li><li>Bcc：密件抄送</li><li>Cc：抄送</li><li>Subject：主题</li><li>Text：正文</li><li>HTML：Html格式</li></ul><p>方法：</p><ul><li><p>Send：发送邮件</p><p>smtp.gmail.com:587：</p><p>smtp.gmail.com服务器地址，587服务器端口<br>password123：发件邮件账号的三方授权密码</p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>GO</tag>
+      
+      <tag>gomail</tag>
+      
+      <tag>email</tag>
+      
+      <tag>邮件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>面向对象设计</title>
     <link href="/2022/10/11/2022-10-11-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1/"/>
     <url>/2022/10/11/2022-10-11-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1/</url>
