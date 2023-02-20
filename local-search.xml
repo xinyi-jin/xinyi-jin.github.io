@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>linux系统断电恢复</title>
+    <link href="/2023/02/20/2023-02-20-linux%E5%AE%B9%E5%99%A8%E6%96%AD%E7%94%B5%E6%81%A2%E5%A4%8D/"/>
+    <url>/2023/02/20/2023-02-20-linux%E5%AE%B9%E5%99%A8%E6%96%AD%E7%94%B5%E6%81%A2%E5%A4%8D/</url>
+    
+    <content type="html"><![CDATA[<p>问题：VmWare断电后failed to mount /sysroot.</p><p>原因：sda4内存数据损坏，需要进行磁盘修复操作</p><p>解决办法：</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs awk">mount -f <span class="hljs-regexp">/dev/</span>sda4 /sysroot<br><br>xfs_repair -L <span class="hljs-regexp">/dev/</span>sda4<br><br>init <span class="hljs-number">6</span><br></code></pre></td></tr></table></figure><p>以上内容参考：<a href="https://itrunbooks.com/coreos-boot-failure-sysroot-mount-mount-proces-exited-codeexited-status32">CoreOS Boot failure, sysroot.mount: mount proces exited, code=exited status=32</a></p><p>可以先进行 ls /dev/mapper/操作查看是否存在 centos-root</p><p>存在的话可先进行以下操作，尝试恢复。</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs awk">ls <span class="hljs-regexp">/dev/m</span>apper/<br><br>xfs_repair <span class="hljs-regexp">/dev/m</span>apper/centos-root<br><br><span class="hljs-regexp">//</span> 上边修复不行的话，执行强制修复<br>xfs_repair -L <span class="hljs-regexp">/dev/m</span>apper/centos-root<br><br>reboot<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Linux</tag>
+      
+      <tag>VmWare</tag>
+      
+      <tag>虚拟机</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>常用书签页</title>
     <link href="/2023/01/14/2023-01-14-%E5%B8%B8%E7%94%A8%E4%B9%A6%E7%AD%BE%E9%A1%B5/"/>
     <url>/2023/01/14/2023-01-14-%E5%B8%B8%E7%94%A8%E4%B9%A6%E7%AD%BE%E9%A1%B5/</url>
