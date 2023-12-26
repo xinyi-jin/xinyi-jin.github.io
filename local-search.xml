@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>Go性能调优</title>
+    <link href="/2023/12/26/2023-12-26-Go%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/"/>
+    <url>/2023/12/26/2023-12-26-Go%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98/</url>
+    
+    <content type="html"><![CDATA[<ol><li><p>源程序main函数添加代码如下：</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs go"><span class="hljs-keyword">go</span> <span class="hljs-function"><span class="hljs-keyword">func</span><span class="hljs-params">()</span></span> &#123;<br>log.Println(http.ListenAndServe(<span class="hljs-string">&quot;:6060&quot;</span>, <span class="hljs-literal">nil</span>))<br>&#125;()<br></code></pre></td></tr></table></figure></li><li><p>引入头文件如下：</p><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs haxe"><span class="hljs-literal">_</span> <span class="hljs-string">&quot;net/http/pprof&quot;</span><br></code></pre></td></tr></table></figure></li><li><p>可直接使用网页打开</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">http:<span class="hljs-regexp">//</span><span class="hljs-number">127.0</span>.<span class="hljs-number">0.1</span>:<span class="hljs-number">6060</span><span class="hljs-regexp">/debug/</span>pprof/<br></code></pre></td></tr></table></figure></li><li><p>通过交互式终端使用</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">go tool pprof http:<span class="hljs-regexp">//</span>localhost:<span class="hljs-number">6060</span><span class="hljs-regexp">/debug/</span>pprof/profile\?seconds\=<span class="hljs-number">60</span><br></code></pre></td></tr></table></figure><p>此命令会采集60秒cpu数据，采集完成后使用top查看资源开销情况</p><figure class="highlight erlang"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs erlang">(pprof) top10<br>Showing nodes accounting for <span class="hljs-number">36.23</span>s, <span class="hljs-number">97.26</span><span class="hljs-comment">% of 37.25s total</span><br>Dropped <span class="hljs-number">80</span> nodes (cum &lt;= <span class="hljs-number">0.19</span>s)<br>Showing top <span class="hljs-number">10</span> nodes out <span class="hljs-keyword">of</span> <span class="hljs-number">34</span><br>      flat  flat<span class="hljs-comment">%   sum%        cum   cum%  Name</span><br>    <span class="hljs-number">32.63</span>s <span class="hljs-number">87.60</span><span class="hljs-comment">% 87.60%     32.70s 87.79%  syscall.syscall</span><br>     <span class="hljs-number">0.87</span>s  <span class="hljs-number">2.34</span><span class="hljs-comment">% 89.93%      0.88s  2.36%  runtime.stringtoslicebyte</span><br>     <span class="hljs-number">0.69</span>s  <span class="hljs-number">1.85</span><span class="hljs-comment">% 91.79%      0.69s  1.85%  runtime.memmove</span><br>     <span class="hljs-number">0.52</span>s  <span class="hljs-number">1.40</span><span class="hljs-comment">% 93.18%      0.52s  1.40%  runtime.nanotime</span><br>     ...<br>(pprof) <br></code></pre></td></tr></table></figure><ul><li>flat：函数自身的运行耗时。</li><li>flat%：函数自身在 CPU 运行耗时总比例。</li><li>sum%：函数自身累积使用 CPU 总比例。</li><li>cum：函数自身及其调用函数的运行总耗时。</li><li>cum%：函数自身及其调用函数的运行耗时总比例。</li><li>Name：函数名。</li></ul><hr><p>其他命令详见help!</p><p><a href="https://golang2.eddycjy.com/posts/ch6/01-pprof-1/">原文地址</a></p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Go</tag>
+      
+      <tag>Pprof</tag>
+      
+      <tag>性能调优</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>openssl生成.pem证书文件</title>
     <link href="/2023/04/12/2023-04-12-openssl%E7%94%9F%E6%88%90.pem%E8%AF%81%E4%B9%A6%E6%96%87%E4%BB%B6/"/>
     <url>/2023/04/12/2023-04-12-openssl%E7%94%9F%E6%88%90.pem%E8%AF%81%E4%B9%A6%E6%96%87%E4%BB%B6/</url>
