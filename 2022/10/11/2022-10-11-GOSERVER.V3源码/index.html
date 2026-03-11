@@ -23,14 +23,16 @@
 <meta property="og:site_name" content="maomao&#39;s blog">
 <meta property="og:description" content="## goserver goserver 旨在做一个传统的CS结构的服务器框架 目前主要用于游戏服务器开发 框架还在不断努力完善中，如果你对它感兴趣，请关注它的动态或者参与进来 ## Features * 组件通过package的概念统一管理(可以理解为win32下的dll)，由config来配置各个组件的特性参数 * goroutine通过Object进行包装以树型结构组织，Object间的通信">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-10-11T02:31:00.000Z">
-<meta property="article:modified_time" content="2022-10-11T06:21:57.000Z">
+<meta property="article:published_time" content="2022-10-11T10:31:00.000Z">
+<meta property="article:modified_time" content="2026-03-07T09:53:41.348Z">
 <meta property="article:author" content="maomao">
 <meta property="article:tag" content="Go">
 <meta property="article:tag" content="GOSERVER框架">
 <meta property="article:tag" content="CS游戏架构">
 <meta name="twitter:card" content="summary_large_image">
   
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
   
   <title>GOSERVER.V3源码 - maomao&#39;s blog</title>
@@ -93,7 +95,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 60vh;">
+<div class="header-inner" style="height: 100vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -256,12 +258,24 @@
 
     
     
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+      
+    
   </div>
 
 
         
       </div>
 
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
       
     </div>
   </div>
@@ -418,7 +432,7 @@
     Fluid.utils.loadComments('#valine', function() {
       Fluid.utils.createScript('https://lib.baomitu.com/valine/1.4.17/Valine.min.js', function() {
         var options = Object.assign(
-          {"appId":"5dXBaxNNpUJQJI4mNGlMtKHy-gzGzoHsz","appKey":"pThoKgDagYLJbYZrnl4ShW9A","path":"window.location.pathname","placeholder":"别忘了留下你的名字:)","avatar":"monsterid","meta":["nick","mail","link"],"requiredFields":["nick"],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":null},
+          {"appId":"5dXBaxNNpUJQJI4mNGlMtKHy-gzGzoHsz","appKey":"pThoKgDagYLJbYZrnl4ShW9A","path":"window.location.pathname","placeholder":"别忘了留下你的名字:)","avatar":"retro","meta":["nick","mail"],"requiredFields":["nick"],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
           {
             el: "#valine",
             path: window.location.pathname
@@ -650,6 +664,8 @@
   <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
 

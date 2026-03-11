@@ -23,12 +23,14 @@
 <meta property="og:site_name" content="maomao&#39;s blog">
 <meta property="og:description" content="进行了下方代码进行验证 123456789101112131415package mainimport &quot;fmt&quot;func main()&amp;#123;	if n:&#x3D;1+1;n!&#x3D;2&amp;#123;		fmt.Print(&quot;if n:&quot;,n)	&amp;#125;else if n&lt;2&amp;#123;		fmt.Print(&quot;else if n:&quot;,n">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-03-25T08:45:00.000Z">
-<meta property="article:modified_time" content="2022-09-13T09:32:19.000Z">
+<meta property="article:published_time" content="2020-03-25T16:45:00.000Z">
+<meta property="article:modified_time" content="2026-03-07T09:53:41.349Z">
 <meta property="article:author" content="maomao">
 <meta property="article:tag" content="Go">
 <meta name="twitter:card" content="summary_large_image">
   
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
   
   <title>GoLang中if临时变量的生存周期 - maomao&#39;s blog</title>
@@ -91,7 +93,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 60vh;">
+<div class="header-inner" style="height: 100vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -254,12 +256,24 @@
 
     
     
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+      
+    
   </div>
 
 
         
       </div>
 
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
       
     </div>
   </div>
@@ -371,7 +385,7 @@
     Fluid.utils.loadComments('#valine', function() {
       Fluid.utils.createScript('https://lib.baomitu.com/valine/1.4.17/Valine.min.js', function() {
         var options = Object.assign(
-          {"appId":"5dXBaxNNpUJQJI4mNGlMtKHy-gzGzoHsz","appKey":"pThoKgDagYLJbYZrnl4ShW9A","path":"window.location.pathname","placeholder":"别忘了留下你的名字:)","avatar":"monsterid","meta":["nick","mail","link"],"requiredFields":["nick"],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":null},
+          {"appId":"5dXBaxNNpUJQJI4mNGlMtKHy-gzGzoHsz","appKey":"pThoKgDagYLJbYZrnl4ShW9A","path":"window.location.pathname","placeholder":"别忘了留下你的名字:)","avatar":"retro","meta":["nick","mail"],"requiredFields":["nick"],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
           {
             el: "#valine",
             path: window.location.pathname
@@ -603,6 +617,8 @@
   <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
 
