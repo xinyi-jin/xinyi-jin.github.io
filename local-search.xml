@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>openclaw</title>
+    <link href="/2026/05/08/2026-05-08-openclaw/"/>
+    <url>/2026/05/08/2026-05-08-openclaw/</url>
+    
+    <content type="html"><![CDATA[<h2 id="使用容器部署openclaw服务，体验一把！"><a href="#使用容器部署openclaw服务，体验一把！" class="headerlink" title="使用容器部署openclaw服务，体验一把！"></a>使用容器部署openclaw服务，体验一把！</h2><ol><li>docker容器环境安装<br>``<br>// 拉取ubuntu22.04<br>docker pull ubuntu:22.04</li></ol><p>// 运行容器<br>docker run -itd –name=openclaw –network host ubuntu:22.04 /bin/bash</p><p>// 进入容器内部<br>docker exec -it openclaw bash<br>``</p><ol start="2"><li>安装openclaw<br>``<h1 id="安装-Node-js-22-x-版本"><a href="#安装-Node-js-22-x-版本" class="headerlink" title="安装 Node.js 22.x 版本"></a>安装 Node.js 22.x 版本</h1>curl -fsSL <a href="https://deb.nodesource.com/setup_22.x">https://deb.nodesource.com/setup_22.x</a> | sudo -E bash -<br>sudo apt-get install -y nodejs</li></ol><p>curl -fsSL <a href="https://openclaw.ai/install.sh">https://openclaw.ai/install.sh</a> | bash<br>``</p><p>遇到问题：<br>配置QQ bot;</p><ul><li>需要到QQ开放中心 申请openclaw bot 获得key和secret</li></ul><p>模型选择</p><ul><li>选择Z-AI 智普GLM 需要到智普 注册申请API key</li></ul><p>有了以上内容 便可以配置QQ bot 接入openclaw服务；</p><p>``<br>容器内 需要直接启动服务</p><!-- 直接启动服务 --><p>openclaw gateway</p><!-- 后台启动服务 --><p>nohup openclaw gateway &gt; /root/openclaw.log 2&gt;&amp;1 &amp;<br>``</p><p>``</p><!-- 打开交互式面板 --><p>openclaw tui</p><!-- 打开网页控制面板 --><p>openclaw dashboard</p><!-- 设置QQ bot --><p>openclaw channels add –channel qqbot –token “1903978674:secret”<br>``</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习【资料整理记录】</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Docker</tag>
+      
+      <tag>ubuntu</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>使用cloudreve搭建个人网盘服务</title>
     <link href="/2026/04/23/2026-04-23-%E4%BD%BF%E7%94%A8cloudreve%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%E6%9C%8D%E5%8A%A1/"/>
     <url>/2026/04/23/2026-04-23-%E4%BD%BF%E7%94%A8cloudreve%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%E6%9C%8D%E5%8A%A1/</url>
